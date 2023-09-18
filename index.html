@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de Filmes</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Menú de Filmes</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu" >
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#lancamento">Lançamentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aventura">Aventura</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#comedia">Comédia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#animacao">Animação</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container-carousel">
+        <div id="carousel-filmes" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="./img/carousel/AVATAR.jpg" alt="Avatar">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./img/carousel/CAVALEIROS_DO_ZODIACO.webp" alt="cavaleiros-do-zodiaco">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="/img/carousel/FLASH.webp" alt="Flash">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./img/carousel/GUARDIOES_DA_GALAXIA.jpeg" alt="guardioes_da_galaxia">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./img/carousel/OPENHEIMER.jpeg" alt="Openheimer">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./img/carousel/SUPER_MARIO_BROS.avif" alt="supermariobros">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item ">
+                    <img class="d-block w-100" src="./img/carousel/TRANSFORMERS.webp" alt="transformers">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./img/carousel/BESOURO_AZUL.webp" alt="besouro-azul"">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+            <section id="lancamento">
+                <h2>Lançamento</h2>
+            </section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./img/carousel/AVATAR.jpg">
+                            <div class="card-body">
+                                <h4 class="card-titulo">Avatar 2</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjXyN7corWBAxXrHrkGHYpHBFIQ3yx6BAgMEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DfMdb0nGsICE&usg=AOvVaw2h4ap-df3monKZRY1V7ke8&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./img/carousel/BESOURO_AZUL.webp">
+                            <div class="card-body">
+                                <h4 class="card-titulo">Besouro Azul</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj5raOTo7WBAxWBEbkGHStjBw8Q3yx6BAgMEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DWvAdCYosyVo&usg=AOvVaw0ha6WhTieJDP_lYJnTTRiQ&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./img/carousel/CAVALEIROS_DO_ZODIACO.webp">
+                            <div class="card-body">
+                                <h4 class="card-titulo">Cavaleiros do Zodiaco</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjqvJ6ho7WBAxX9CrkGHZ9ECu8Q3yx6BAghEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEh5FgzR_4EU&usg=AOvVaw3klr8nrm75BGuwZ28mg1YU&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./img/carousel/FLASH.webp">
+                            <div class="card-body">
+                                <h4 class="card-titulo">Flash</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjz_pa7o7WBAxXeJrkGHRCSB8kQ3yx6BAgOEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DxMbg-ZsFCCo&usg=AOvVaw1age1zNewLcJYBuaiDS24M&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                                <img src="./img/carousel/GUARDIOES_DA_GALAXIA.jpeg">
+                            <div class="card-body">
+                                <h4 class="card-titulo">Guardioes da Galaxia</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi_pp3Io7WBAxVeA7kGHWGdAzQQ3yx6BAgYEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dd1yNc9skssk&usg=AOvVaw1QtrhBOiqEGhHPtuRxeUhz&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./img/carousel/SUPER_MARIO_BROS.avif">
+                            <div class="card-body">
+                                <h4 class="card-titulo">Super Mario Bros</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjFsMjbo7WBAxVICrkGHczdCjAQ3yx6BAgNEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DCb4WV4aXBpk&usg=AOvVaw2yvtru55x0WAGUCo-wL2ag&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section id="aventura">
+                <h2>Aventura</h2>
+            </section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./img/./aventura/Black-Panther-Wakanda-Forever1-.webp">
+                            <div class="card-body">
+                                <h4 class="card-titulo">Pantera Negra</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiVsMTso7WBAxXkCbkGHc3pDzgQtwJ6BAgSEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DytQ9KO8gfSw&usg=AOvVaw1d1A-8IcIr5NmO2eLPQSm1&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./img/./aventura/d&d.jpeg">
+                            <div class="card-body">
+                                <h4 class="card-titulo">Dungeons & Dragons</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi5jaCIpLWBAxXjHrkGHd-YBsIQtwJ6BAgLEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DIiMinixSXII&usg=AOvVaw3uLL7rKgUr8Ws8euKhvi-s&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./img/./aventura/homem_formiga.webp">
+                            <div class="card-body">
+                                <h4 class="card-titulo">Homem Formiga</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjXsdWWpLWBAxUQHrkGHeBFCjoQ3yx6BAggEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D6jIz_8tokvg&usg=AOvVaw3bxMyknlPvFP-A0AyUIFiH&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./img/aventura/os_goonies.jpg">
+                            <div class="card-body">
+                                <h4 class="card-titulo">Os Goonies</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjW4Y-kpLWBAxUyLrkGHVB8CWQQtwJ6BAgPEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DxM-ZPcicbTM&usg=AOvVaw3-vW2Y404XdHkrh8V6zBOt&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                                <img src="./img/./aventura/os_tres_mosqueteiros_dartagnan.jpg
+                                ">
+                            <div class="card-body">
+                                <h4 class="card-titulo">3 Mosqueteiros Dartagnan</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj9pOCzpLWBAxWtILkGHf-vD4QQ3yx6BAgXEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DLClc3d2ZnSY&usg=AOvVaw3JM-GYcSOBmG09leI-S98a&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./img/./aventura/willow.jpg">
+                            <div class="card-body">
+                                <h4 class="card-titulo">Willow</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj71dO9pLWBAxWyLLkGHbQuBfoQtwJ6BAgKEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dda7BYWyvwO8&usg=AOvVaw04djTahVTei4z2o7xFd3gZ&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section id="comedia">
+                <h2>Comédia</h2>
+            </section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./img/comedia/a-sogra-que-te-pariu.jpg">
+                            <div class="card-body">
+                                <h4 class="card-titulo">A Sogra que te pariu</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjX8cfPpLWBAxUXHLkGHWUXCdYQtwJ6BAgMEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dpd4DWWdlo_s&usg=AOvVaw1-b6wqZUy2o58JNSkRR4bR&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./img/comedia/asterix_e_obelix.jpg">
+                            <div class="card-body">
+                                <h4 class="card-titulo">Asterix e Obelix</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjZ35PdpLWBAxXDLbkGHe0SDr4Q3yx6BAgMEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9PLl0qJjDrQ&usg=AOvVaw04FkjxrtuFhx6eZ2Sj7hD2&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./img/comedia/eu-eumesmo-e-irene.jpeg">
+                            <div class="card-body">
+                                <h4 class="card-titulo">Eu mesmo e Irene</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiF7JvrpLWBAxWXLrkGHcN6DSYQtwJ6BAgNEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dce_zzF-56lw&usg=AOvVaw3kgG6TkdvxOhuBzoXlIGff&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./img/comedia/o-cangaceiro-do-futuro.jpg">
+                            <div class="card-body">
+                                <h4 class="card-titulo">O Cangaceiro do Futuro</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwii6_f3pLWBAxXtHrkGHVAuBpIQwqsBegQICBAG&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DqwfsgjVNJrA&usg=AOvVaw3hvUxr9W0fsgrDXcJ3K8Ej&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                                <img src="./img/./comedia/quasimodo.jpg">
+                            <div class="card-body">
+                                <h4 class="card-titulo">Quasimodo</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjNuNqJpbWBAxUlBbkGHc5rBK4Q3yx6BAgOEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DO3dps28_BDQ&usg=AOvVaw2avPpVSYkffwBjFEKQTIYL&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./img/./comedia/ricos-de-amor-2.jpg">
+                            <div class="card-body">
+                                <h4 class="card-titulo">Ricos de Amor 2</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj-7oCYpbWBAxWsJLkGHZthDTYQwqsBegQICBAF&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DR991B2-W4uo&usg=AOvVaw2XyBSr4_KSLnydaCGWEFUS&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section id="animacao">
+                <h2>Animação</h2>
+            </section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./img/./animacao/dragon_age.jpg">
+                            <div class="card-body">
+                                <h4 class="card-titulo">Dragon Age</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjO15eppbWBAxVVL7kGHVccBr8QtwJ6BAgOEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DzLESu_aChMU&usg=AOvVaw05rbiMwFDDzjQcwSOPuqTI&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./img/./animacao/dragon_ball.jpg">
+                            <div class="card-body">
+                                <h4 class="card-titulo">Dragon Ball</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj93bOxpbWBAxVnK7kGHeVGAScQtwJ6BAgPEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dch3eFyiEX8s&usg=AOvVaw3wLeoVp_kqRLDnPteSzQi8&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./img/./animacao/gato_de_botas_2.jpg">
+                            <div class="card-body">
+                                <h4 class="card-titulo">Gato de botas</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjkssq-pbWBAxXZCrkGHUD7ArEQwqsBegQICBAB&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D2bLm2mJUROA&usg=AOvVaw0VVRRb2shuRQjMLOk4eF1r&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./img/./animacao/homem_aranha_no_aranhaverso.jpeg">
+                            <div class="card-body">
+                                <h4 class="card-titulo">Homem aranha</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi1hfXRpbWBAxUwO7kGHeLPC40Q3yx6BAgiEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DO8UGVY-wZsg&usg=AOvVaw2Z0mgZwDd0VCqCKh7G3wig&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./img/./animacao/Mundo-Estranho-Disney-Plus.jpg">
+                            <div class="card-body">
+                                <h4 class="card-titulo">Mundo estranho</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjqup7gpbWBAxXjOrkGHZAqB6wQtwJ6BAgREAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DeEgM2PCNUvA&usg=AOvVaw0n2vwJYClKYiFQmMUijcUz&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./img/./animacao/Planeta-do-Tesouro-Disney-Plus.jpg">
+                            <div class="card-body">
+                                <h4 class="card-titulo">Planeta do tesouro</h4>
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiG3sPrpbWBAxXUHrkGHcx9DYoQwqsBegQICBAB&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DfnpZF5GjiDk&usg=AOvVaw2qsmtZdcTMNnKGZQjEH66A&opi=89978449" class="btn btn-primary">Ver Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="./lib/bootstrap.bundle.min.js.js"></script>
+</body>
+</html>
